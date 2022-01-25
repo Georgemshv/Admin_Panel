@@ -1,0 +1,185 @@
+.starbyte_admin_html{
+    height: 100%;
+    background:url("../img/gta_server.jpg") fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.admin_panel{
+    background: rgba(6, 11, 16, 0.7);
+    -webkit-backdrop-filter: blur(40px);
+            backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 27px;
+    max-width: 1333px;
+    width: 100%;
+    padding: 32px 0;
+    margin: 0 auto;
+    margin-top: 84px;
+}
+.Questions,.article .article-box .article_right_block p,
+.article .article-box .article_left_block span , .Answer ,.input_line input ,
+.action h6,.bottom-block-wrapper .action .action_blocks ,.template h6 ,
+.template_box span{ 
+    font-style: normal;
+    color: white;
+}
+.Questions , .Answer{
+    font-size: 32.1048px;
+    text-align: center;
+}
+.inbox{
+    background: #FAFF00;
+    color: #222222;
+    font-size: 11px;
+    width: 48.16px;
+    height: 17.06px;
+    border-radius: 5.01638px;
+    margin: 0 auto;
+    margin-top: 1px;
+}
+.article{
+    padding: 0px 102px;
+}
+.article .article-box{
+    background: rgba(255, 255, 255, 0.17);
+    -webkit-backdrop-filter: blur(40.131px);
+            backdrop-filter: blur(40.131px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 12.0393px;
+    height: 124px;
+    padding: 30px 28px 26px 28px;
+    margin-top: 16px;
+}
+.article .article-box::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+.article .article-box .article_left_block h4{
+    color: #FAFF00;
+    font-size: 29.4294px;
+    margin-bottom: 9px;
+}
+.template_box span , .article .article-box .article_left_block span{
+    opacity: 0.5;
+}
+.article .article-box .article_left_block span{
+    font-size: 14.7147px;
+    display: block;
+}
+.bottom-block-wrapper .action .action_blocks span, 
+.article .article-box .article_right_block p{
+    opacity: 0.6;
+}
+.article .article-box .article_right_block p{
+    max-width: 705px;
+    font-size: 20.0655px;
+    line-height: 23px;
+}
+.Answer{
+    margin-top: 27px;
+}
+.bottom-block-wrapper , .input_container{
+    padding: 0px 54px;
+}
+.input_container {
+    margin-top: 27px;
+}
+.input_line input{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.09);
+    -webkit-box-shadow: 0px 0px 30.0983px rgba(0, 0, 0, 0.08);
+            box-shadow: 0px 0px 30.0983px rgba(0, 0, 0, 0.08);
+    -webkit-backdrop-filter: blur(40.131px);
+            backdrop-filter: blur(40.131px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 27.0885px;
+    height: 86.28px;
+    padding-left: 76px;
+    font-size: 25.0819px;
+}
+.input_line input::-webkit-input-placeholder{
+    opacity: 0.1;
+}
+.input_line input::-moz-placeholder{
+    opacity: 0.1;
+}
+.input_line input:-ms-input-placeholder{
+    opacity: 0.1;
+}
+.input_line input::-ms-input-placeholder{
+    opacity: 0.1;
+}
+.input_line input::placeholder{
+    opacity: 0.1;
+}
+.enter_click{
+    right: 120px;
+    top: 55%;
+    -webkit-transform:translateY(-55%);
+        -ms-transform:translateY(-55%);
+            transform:translateY(-55%)
+}
+.bottom-block-wrapper .action , .bottom-block-wrapper .template{
+    margin-top: 30px;
+}
+.bottom-block-wrapper .action{
+    max-width: 471.54px;
+    width: 100%;
+}
+.bottom-block-wrapper .action .action_blocks{
+    width: 100%;
+    height: 67.22px;
+    -webkit-backdrop-filter: blur(40.131px);
+            backdrop-filter: blur(40.131px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 12.0393px;
+    font-size: 25.0819px;
+    cursor: pointer;
+}
+.bottom-block-wrapper .action .action_blocks, .template .two_template .template_box{
+    background: rgba(255, 255, 255, 0.07);
+}
+.bottom-block-wrapper .action .action_blocks:last-child{
+    margin-top: 13px;
+}
+.action h6 , .template h6{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25.0819px;
+}
+.bottom-block-wrapper .template{
+    max-width: calc(604px + 15px);
+    width: 100%;
+}
+.bottom-block-wrapper::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+.template .two_template .template_box{
+    max-width: 302.48px;
+    width: 100%;
+    height: 48.21px;
+    -webkit-backdrop-filter: blur(37.8099px);
+            backdrop-filter: blur(37.8099px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 10.3977px;
+    cursor: pointer;
+}
+.template .two_template .template_box:last-child{
+    margin-left: 15px;
+}
+.two_template:not(:first-child){
+    margin-top: 13px;
+}
+.bottom-block-wrapper .action .action_blocks:hover, .template .two_template .template_box:hover{
+    background: rgba(255, 255, 255, 0.15);
+}
